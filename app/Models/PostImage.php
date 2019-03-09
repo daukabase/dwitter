@@ -18,8 +18,8 @@ class PostImage extends Model
     public $timestamps = false;
 
 
-    public function getURL(){
-        return url('storage/uploads/posts/'.$this->image_path);
+    public function getURL() {
+        return url('images/dauka1.jpg');
     }
 
 }

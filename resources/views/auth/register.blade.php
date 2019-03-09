@@ -6,7 +6,7 @@
 
     <div class="row">
         <div class="form-group{{ old('tab') == 'register' && $errors->has('name') ? ' has-error' : '' }} col-md-12">
-            <label for="name" class="control-label">Name</label>
+            <label for="name" class="control-label"><i>Name:</i></label>
 
             <div class="form-group">
                 <div class="input-group">
@@ -25,7 +25,7 @@
         </div>
 
         <div class="form-group{{ old('tab') == 'register' && $errors->has('email') ? ' has-error' : '' }} col-md-12">
-            <label for="email" class="control-label">E-Mail Address</label>
+            <label for="email" class="control-label"><i>E-Mail:</i></label>
 
             <div class="form-group">
                 <div class="input-group">
@@ -45,7 +45,7 @@
         </div>
 
         <div class="form-group{{ old('tab') == 'register' && $errors->has('username') ? ' has-error' : '' }} col-md-12">
-            <label for="username" class="control-label">Username</label>
+            <label for="username" class="control-label"><i>Username:</i></label>
 
             <div class="form-group">
                 <div class="input-group">
@@ -65,7 +65,7 @@
         </div>
 
         <div class="form-group{{ old('tab') == 'register' && $errors->has('password') ? ' has-error' : '' }} col-md-12">
-            <label for="password" class="control-label">Password</label>
+            <label for="password" class="control-label"><i>Password:</i></label>
 
             <div class="form-group">
                 <div class="input-group">
@@ -83,7 +83,7 @@
         </div>
 
         <div class="form-group  col-md-12">
-            <label for="password-confirm" class="control-label">Confirm Password</label>
+            <label for="password-confirm" class="control-label"><i>Confirm Password:</i></label>
 
             <div class="form-group">
                 <div class="input-group">

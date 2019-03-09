@@ -2,13 +2,13 @@
     <input type="hidden" value="login" name="tab" />
     {{ csrf_field() }}
 
-    <h2>Connect with around.kim to people!</h2>
+    <h2>Start Connecting Millions of People!</h2>
 
 
 
     <div class="row">
         <div class="form-group{{ old('tab') != 'register' && $errors->has('email') ? ' has-error' : '' }} col-md-12">
-            <label for="email" class="control-label">E-Mail Address</label>
+            <label for="email" class="control-label"><i>E-Mail:</i></label>
 
 
 
@@ -25,7 +25,7 @@
         </div>
 
         <div class="form-group{{ old('tab') != 'register' && $errors->has('password') ? ' has-error' : '' }} col-md-12">
-            <label for="password" class="control-label">Password</label>
+            <label for="password" class="control-label"><i>Password:</i></label>
 
             <div  class="input-group">
                 <span class="input-group-addon" id="basic-addon1"><i class="fa fa-unlock-alt"></i> </span>
@@ -67,19 +67,7 @@
 
         <div class="clearfix"></div>
 
-        <div class="sub-title">
-            <hr />
-            <span>or</span>
-        </div>
 
-
-        <div class="form-group">
-            <div class="col-md-8 col-md-offset-2">
-                <button type="submit" class="btn btn-primary btn-facebook">
-                    <i class="fa fa-facebook-square"></i> Connect with Facebook
-                </button>
-            </div>
-        </div>
 
 
 

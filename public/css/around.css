@@ -43,12 +43,11 @@ a, a:hover, a:active, a:visited, a:focus {
     min-height: 61px;
 }
 
-.navbar-around .navbar-header .navbar-brand {
+.navbar-around .navbar-header .navbar-brand{
     margin: 0;
     padding: 0;
     width: 180px;
 }
-
 .navbar-around .navbar-form {
     width: auto;
     margin-left: 10px;
@@ -570,16 +569,16 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .new-post-box .btn-submit {
-    background: #488ec9;
-    border-color: #3c76a7;
+    background: #e44d3a;
+    border-color: #e44d3a;
     padding-left: 20px;
     padding-right: 20px;
     color: #fff
 }
 
 .new-post-box .btn-submit:hover {
-    background: #3c76a7;
-    border-color: #2e5679;
+    background: #e44d3a;
+    border-color: #FFFFFF;
 }
 
 .new-post-box .loading-post {

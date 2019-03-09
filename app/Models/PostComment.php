@@ -1,9 +1,4 @@
 <?php
-/**
- * Created by lvntayn
- * Date: 04/06/2017
- * Time: 17:23
- */
 
 namespace App\Models;
 

@@ -11,7 +11,7 @@ input:-webkit-autofill:active {
 }
 
 :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #F41818;
+    color: #e44d3a;
     font-style: italic;
 }
 
@@ -64,7 +64,7 @@ input:-webkit-autofill:active {
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-    background: #F41818;
+    background: #e44d3a;
 }
 
 .tab_container label{
@@ -89,7 +89,7 @@ input:-webkit-autofill:active {
 
 
 .tab_container [id^="tab"]:checked + .head, .tab_container .head:hover {
-    background: #F41818;
+    background: #e44d3a;
 }
 
 
@@ -345,7 +345,7 @@ input:-webkit-autofill:active {
     background-color: #5cb85c; }
 
 .btn-login{
-    background: #F41818;
+    background: #e44d3a;
     border: none;
     display: block;
     width: 100%;
@@ -354,7 +354,7 @@ input:-webkit-autofill:active {
 }
 
 .btn-facebook{
-    background: #F41818;
+    background: #e44d3a;
     border: none;
     display: block;
     width: 100%;
@@ -374,7 +374,7 @@ input:-webkit-autofill:active {
 
 
 .btn-register{
-    background: #F41818;
+    background: #e44d3a;
     border: none;
     display: block;
     width: 100%;

@@ -23,29 +23,30 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                Discover your surroundings. Share your hobbies. Meet new people with Around.kim!
+                <ul>
+                        <li><h3>Follow your interests</h3></li>
+                        <li><h3>Hear what people are talking about.</h3></li>
+                        <li><h3>Join the conversation.</h3></li>
+                </ul>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container">
+<div class="root">
+    
+<div class="half" style="background: #F41818;">
+
+</div>
+<div class="container half">
     <div class="row">
         <div class="col-md-6">
-            <a href="{{ url('/') }}" class="logo">
-                <img src="{{ asset('images/guest_logo.png') }}" alt="" />
-            </a>
-        </div>
-
-        <div class="col-md-6">
-
-
             <div class="tab_container">
                 <input id="tab1" type="radio" name="tabs" {{ old('tab') != 'register' ? 'checked' : '' }} class="radio_hidden">
-                <label for="tab1" class="head"><i class="fa fa-user"></i><span>LOGIN</span></label>
+                <label for="tab1" class="head"><i class="fa fa-user"></i><span><i>LOGIN</i></span></label>
 
                 <input id="tab2" type="radio" name="tabs" {{ old('tab') == 'register' ? 'checked' : '' }} class="radio_hidden">
-                <label for="tab2" class="head"><i class="fa fa-user-plus"></i><span>SIGN UP</span></label>
+                <label for="tab2" class="head"><i class="fa fa-user-plus"></i><span><I>SIGN UP</I></span></label>
 
                 <div class="contents">
                     <section id="content1" class="tab-content">
@@ -71,6 +72,7 @@
     @include('widgets.footer')
 </div>
 
+</div>
 
 <!-- Scripts -->
 <script src="{{ asset('plugins/jquery/jquery-3.2.1.min.js') }}"></script>

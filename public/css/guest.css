@@ -11,14 +11,28 @@ input:-webkit-autofill:active {
 }
 
 :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #4d4d4d;
+    color: #F41818;
     font-style: italic;
 }
 
 .container{
     margin-top: 120px;
 }
-
+.half {
+    width: 50%;
+}
+.back-photo {
+    max-width: 100%;
+}
+.root {
+    display: flex;
+}
+.img-class {
+    width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+}
 .logo {
     display: block;
     margin: 150px auto 0 auto;
@@ -27,8 +41,8 @@ input:-webkit-autofill:active {
 }
 
 .tab_container {
-    width: 100%;
-    margin: 0 auto;
+    width: 150%;
+    margin: 100px;
     position: relative;
 }
 
@@ -40,17 +54,17 @@ input:-webkit-autofill:active {
 }
 
 .tab_container .head {
-    font-weight: 700;
+    font-weight: 1200;
     font-size: 20px;
     display: block;
     float: left;
     width: 50%;
-    padding: 22px 0;
-    color: #fff;
+    padding: 35px 0;
+    color: #FFFFFF;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-    background: rgba(59, 105, 145, 0.8);
+    background: #F41818;
 }
 
 .tab_container label{
@@ -68,14 +82,14 @@ input:-webkit-autofill:active {
 #tab5:checked ~ .contents #content5 {
     display: block;
     padding: 20px 35px 50px 35px;
-    background: #fff;
-    color: #999;
+    background: "#1A1414";
+    color: "#1A1414";
     box-sizing: border-box;
 }
 
 
 .tab_container [id^="tab"]:checked + .head, .tab_container .head:hover {
-    background: rgba(11, 75, 134, 0.8);
+    background: #F41818;
 }
 
 
@@ -134,7 +148,6 @@ input:-webkit-autofill:active {
 
 
 .banner{
-    background: rgba(59, 143, 145, 0.5);
     color: #fff;
     padding: 20px 10px;
     box-sizing: border-box;
@@ -332,7 +345,7 @@ input:-webkit-autofill:active {
     background-color: #5cb85c; }
 
 .btn-login{
-    background: #409aff;
+    background: #F41818;
     border: none;
     display: block;
     width: 100%;
@@ -341,7 +354,7 @@ input:-webkit-autofill:active {
 }
 
 .btn-facebook{
-    background: #5b77b2;
+    background: #F41818;
     border: none;
     display: block;
     width: 100%;
@@ -361,7 +374,7 @@ input:-webkit-autofill:active {
 
 
 .btn-register{
-    background: #43b951;
+    background: #F41818;
     border: none;
     display: block;
     width: 100%;

@@ -43,12 +43,11 @@ a, a:hover, a:active, a:visited, a:focus {
     min-height: 61px;
 }
 
-.navbar-around .navbar-header .navbar-brand {
+.navbar-around .navbar-header .navbar-brand{
     margin: 0;
     padding: 0;
     width: 180px;
 }
-
 .navbar-around .navbar-form {
     width: auto;
     margin-left: 10px;

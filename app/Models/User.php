@@ -67,13 +67,13 @@ class User extends Authenticatable
         return false;
     }
 
-    public function getPhoto($w = null, $h = null){
-        if (!empty($this->profile_path)){
-            $path = 'storage/uploads/profile_photos/'.$this->profile_path;
-        }else {
+    public function getPhoto($w = null, $h = null) {
+        if (!empty($this->profile_path)) {
+            $path = 'images/dauka1.jpg';
+        } else {
             $path = "images/profile-picture.png";
         }
-        if ($w == null && $h == null){
+        if ($w == null && $h == null) {
             return url('/'.$path);
         }
         $image = '/resizer.php?';
@@ -84,9 +84,9 @@ class User extends Authenticatable
         return url($image);
     }
 
-    public function getCover($w = null, $h = null){
-        if (!empty($this->cover_path)){
-            $path = 'storage/uploads/covers/'.$this->cover_path;
+    public function getCover($w = null, $h = null) {
+        if (!empty($this->cover_path)) {
+            $path = 'images/dauka2.jpg';
         }else {
             return "";
         }
